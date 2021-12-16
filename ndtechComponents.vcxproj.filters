@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;s;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>bmp;gif;jpg;jpeg;png;wav;mp4</Extensions>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{25c4285b-b286-4892-906a-711ee10150f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hand Tracking">
+      <UniqueIdentifier>{9cb61e57-ffed-41d7-a773-77de2a58d739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{1cff252c-4f31-43dc-8050-c42ef79008db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Billboard">
+      <UniqueIdentifier>{4e9c4c2e-4950-4163-9331-d6c8c97dcd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IndexedInstancedIndirect">
+      <UniqueIdentifier>{4e5adb87-4861-4eea-a337-b6bbc4f57c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{642b97b8-9740-4d04-82f9-7c3240a4e5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{98b6f264-aefb-4ff5-87e5-58366a9a46d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Void Vertex Buffer">
+      <UniqueIdentifier>{d04c9a67-962f-4c46-9f0b-5918ba3e8a06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glad.comp">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="glfw.comp">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run_device.sh">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="build_run_device.bat">
+      <Filter>Build</Filter>
+    </None>
+    <None Include="ndtechComponents.mabu">
+      <Filter>Build</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_tracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardSystemImplMagicLeap.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardActions.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardEffects.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardInstance.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardSystem.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardSystemImpl.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardSystemImplHoloLens.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="hand_tracking.h">
+      <Filter>Header Files\Hand Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedIndirectModelSystem.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedIndirectModelSystemHoloLensImpl.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedIndirectModelSystemImpl.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedIndirectModelSystemMagicLeapImpl.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedModel.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedModelImpl.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedModelImplHoloLens.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedModelImplMagicLeap.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedInstancedModelInstance.h">
+      <Filter>Header Files\IndexedInstancedIndirect</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelHoloLensImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMagicLeapImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSystem.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSystemHoloLensImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSystemImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSystemMagicLeapImpl.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidVertexBufferSystem.h">
+      <Filter>Header Files\Void Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidVertexBufferModel.h">
+      <Filter>Header Files\Void Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidVertexBufferSystemImplHoloLens.h">
+      <Filter>Header Files\Void Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidVertexBufferSystemImplMagicLeap.h">
+      <Filter>Header Files\Void Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidVertexBufferSystemImpl.h">
+      <Filter>Header Files\Void Vertex Buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
